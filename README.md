@@ -22,12 +22,13 @@ This project demonstrates basic Infrastructure as Code (IaC) using Terraform on 
    terraform plan
    
 📁 Project Structure
+
 File	Purpose
-main.tf	Main configuration file
-variables.tf	Declares input variables
-outputs.tf	Specifies Terraform outputs
-terraform.tfvars	Values for the declared variables (ignored)
-.gitignore	Excludes sensitive/unnecessary files
+- main.tf	 Main configuration file
+- variables.tf	 Declares input variables
+- outputs.tf	 Specifies Terraform outputs
+- terraform.tfvars	 Values for the declared variables (ignored)
+- .gitignore	 Excludes sensitive/unnecessary files
 
 ✅ Completed
 Initialized Terraform project
