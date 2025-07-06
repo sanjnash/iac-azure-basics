@@ -1,42 +1,77 @@
-# IaC Azure Basics
+IaC Azure Basics
 
-This project demonstrates Infrastructure as Code (IaC) using Terraform to provision resources in Microsoft Azure.
+This project demonstrates basic Infrastructure as Code (IaC) using Terraform on Microsoft Azure. It provisions a Resource Group and sets up a foundational environment for future infrastructure deployments.
 
-## 🚀 What It Does
+🚀 Getting Started
 
-- Creates an Azure Resource Group
-- Deploys basic infrastructure (e.g., storage account, VMs, etc.)
+Prerequisites
 
-## 🛠️ Getting Started
+Terraform
 
-### Prerequisites
+Azure CLI
 
-- Terraform CLI
-- Azure CLI
-- A valid Azure subscription
+An active Azure subscription
 
-### Setup
+Git
 
-1. Clone the repo
-2. Run `terraform init`
-3. Run `terraform plan`
-4. Run `terraform apply`
+Setup
 
-### Variables
+Clone the repo:
 
-Copy `terraform.tfvars.example` to `terraform.tfvars` and fill in your values.
+git clone https://github.com/sanjnash/iac-azure-basics.git
+cd iac-azure-basics
 
-## 📂 Project Structure
+Initialize Terraform:
 
-- `main.tf` - Core resources
-- `variables.tf` - Input variables
-- `outputs.tf` - Output values
-- `.gitignore` - Files to exclude from git
+terraform init
 
-## ☁️ Remote Backend (optional)
+Review and apply:
 
-Coming soon...
+terraform plan
+terraform apply
 
-## 📄 License
+📁 Project Structure
 
-MIT
+File
+
+Purpose
+
+main.tf
+
+Main configuration file
+
+variables.tf
+
+Declares input variables
+
+outputs.tf
+
+Specifies Terraform outputs
+
+terraform.tfvars
+
+Values for the declared variables (ignored)
+
+.gitignore
+
+Excludes sensitive/unnecessary files
+
+✅ Completed
+
+Initialized Terraform project
+
+Created Azure resource group
+
+Cleaned .terraform folder & large files from repo
+
+Added .gitignore
+
+Pushed to GitHub
+
+📌 Next Steps
+
+
+
+⚠️ Billing Note
+
+To avoid Azure charges, delete the created resource group:
