@@ -31,26 +31,18 @@ File	Purpose
 - .gitignore	 Excludes sensitive/unnecessary files
 
 ✅ Completed
-Initialized Terraform project
+- Initialized Terraform project
+- Created Azure resource group
+- Cleaned .terraform folder & large files from repo
+- Added .gitignore
+- Pushed to GitHub
 
-Created Azure resource group
-
-Cleaned .terraform folder & large files from repo
-
-Added .gitignore
-
-Pushed to GitHub
-
-📌 Next Steps
- Set up a remote backend (Azure Storage Account)
-
- Create .devcontainer or .vscode/settings.json (optional for Dev Containers or shared VS Code config)
-
- Add additional infrastructure modules (storage, network, etc.)
-
- Enable remote state locking & state management
-
- Automate provisioning with GitHub Actions (CI/CD)
+📌 Next Steps I will be adding 
+ -Set up a remote backend (Azure Storage Account)
+ - Create .devcontainer or .vscode/settings.json (optional for Dev Containers or shared VS Code config)
+ - Add additional infrastructure modules (storage, network, etc.)
+ - Enable remote state locking & state management
+ - Automate provisioning with GitHub Actions (CI/CD)
 
 ⚠️ Billing Note
 To avoid Azure charges, delete the created resource group:
