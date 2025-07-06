@@ -1,0 +1,8 @@
+# Ignore Terraform files that shouldn't be committed
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.log
+*.lock.hcl
+crash.log
+*.tfvars
